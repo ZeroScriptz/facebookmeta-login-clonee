@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Login from './Login.js';
+import React from "react";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <main className='bg-cover bg-blue-100 bg-opacity-45'>
+    
+      <div className=''>
+        <img
+        src='https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg'
+        className='object-scale-down object-left md:object-scale-down' 
+        alt=''
+        />
+        
+        <Login className='' ></Login>
+      </div>
+      
+  </main>
   );
 }
 
