@@ -5,6 +5,8 @@
 .FBLogo { 
  display: flex;
  justify-content: left;
+ margin-left: 2in;
+
 }
 
 .cover {
@@ -14,8 +16,8 @@
   background-color: white;
   width: 20em;
   height: 14em;
-  top: -4in;
-  margin-left: 12in;
+  top: -3in;
+  margin-left: 8in;
 }
 
 .email {
@@ -42,4 +44,27 @@
 
 .newacc {
   margin-left: 0.65in;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+img.resize {
+  width: 540px;
+  height: auto;  
+}
+
+.FBLogo {
+  margin-top: 0.05in;
+  margin-left: 0.25in;
+  
+}
+
+.cover {
+  margin-left: 0.30in;
+  margin-top: 3.5in;
+}
+
 }
