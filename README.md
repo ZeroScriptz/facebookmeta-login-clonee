@@ -4,10 +4,14 @@
 ## Getting Started
 Clone the repository to your local machine
 Copy code
-```bash git clone https://github.com/your-username/facebook-login-clone.git```
+```bash 
+git clone https://github.com/your-username/facebook-login-clone.git
+```
 Install the project dependencies
 Copy code
-```bashnpm install```
+```bash 
+npm install
+```
 Start the development server
 Copy code
 ```bash
