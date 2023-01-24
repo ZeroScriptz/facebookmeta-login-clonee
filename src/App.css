@@ -2,59 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
-.FBLogo { 
- display: flex;
- justify-content: left;
- margin-left: 2in;
+.cPage {
+  position: absolute;
+  left: 12.75in;
+  top: 5.5in;
+}
 
+.footer
+{
+    position:absolute;
+    bottom:0;
+    max-width: 728px;
+    left: 4.25in;
+    bottom: 0.5in;
+}
+
+.spacing {
+  word-spacing: 3.5px;
+}
+.FBLogo { 
+ position: absolute;
+ top: -0.25in;
+ margin-left: 4in;
+}
+
+html, body {
+  min-height: 100%;
+}
+body { background-color: rgb(243, 249, 255); }
+
+.divider {
+  position: absolute;
+  max-width: 500px;
+  margin-left: 4.30in;
+  top: 3.25in;
 }
 
 .cover {
+  position: absolute;
   justify-content: space-around;
-  position: relative;
+
   box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
   background-color: white;
-  width: 20em;
-  height: 14em;
-  top: -3in;
-  margin-left: 8in;
+  width: 30em;
+  height: 20em;
+  margin-top: 2in;
+  margin-left: 12in;
 }
 
 .email {
   height: 3em;
   width: 18em;
-  margin-left: 0.17in;
+  margin-left: 1in;
+  margin-top: 0.15in;
 }
 
 .psw {
   height: 3em;
   width: 18em;
-  margin-left: 0.17in;
+  margin-left: 1in;
+  margin-top: 0.15in;
 
 }
 
 .login {
   position: relative;
-  left: 0.17in;
+  margin-top: 0.20in;
+  top: 0.05in;
+  left: 1in;
 }
 
 .forgot {
-  margin-left: 1.05in;
+  margin-left: 1.95in;
+  margin-top: 0.25in;
 }
 
 .newacc {
-  margin-left: 0.65in;
+  margin-left: 1.45in;
+  margin-top: 0.25in;
 }
 
-
-
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1366px) {
   /* For mobile phones: */
-img.resize {
-  width: 540px;
-  height: auto;  
+
+.divider {
+  margin-left: 0.50in;
+  top: -5.75in;
 }
+
 
 .FBLogo {
   margin-top: 0.05in;
@@ -63,8 +98,72 @@ img.resize {
 }
 
 .cover {
-  margin-left: 0.30in;
-  margin-top: 3.5in;
+    margin-left: 6in;
+    margin-top: 1in;
+}
+
+.cPage {
+  margin-left: -6in;
+  margin-top: -1in;
+}
+
+
+}
+
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+
+
+  .divider {
+    display: none;
+  }
+
+.FBLogo {
+  margin-top: 0.05in;
+  margin-left: 0.25in;
+  
+}
+
+.cover {
+    margin-left: 0.30in;
+    margin-top: -0.5in;
+}
+
+.cPage {
+  display: none;
 }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.cPage {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+.FBLogo {
+  margin-top: 0.05in;
+  margin-left: 0.40in;
+  
+}
+
+.cover {
+    
+    margin-left: -0.50in;
+    margin-top: 1.5in;
+}
+
+.divider {
+  display: none;
+}
+
+
+}
+
+
