@@ -4,13 +4,15 @@
 ## Getting Started
 Clone the repository to your local machine
 Copy code
-`git clone https://github.com/your-username/facebook-login-clone.git`
+```bash git clone https://github.com/your-username/facebook-login-clone.git```
 Install the project dependencies
 Copy code
-`npm install`
+```bashnpm install```
 Start the development server
 Copy code
-`npm start`
+```bash
+npm start
+````
 The project will now be running on http://localhost:3000/
 
 ## Framer Motion
